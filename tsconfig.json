@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noEmit": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2018",
+    "jsx": "react",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "public"
+  ],
+  "compileOnSave": true
+}

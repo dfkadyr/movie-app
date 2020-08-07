@@ -1,0 +1,16 @@
+# Dependency directory
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Build
+dist/
+build/
+temp/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
